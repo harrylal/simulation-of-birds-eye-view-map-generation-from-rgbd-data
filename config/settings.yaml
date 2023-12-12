@@ -1,0 +1,18 @@
+# Data-related settings
+KITTI:
+  video_root: "data/kitti/2011_09_26_drive_0011_sync/2011_09_26/2011_09_26_drive_0011_sync" # video root folder
+  calib_root: "data/kitti/2011_09_26_calib/2011_09_26" # Calibration root folder
+
+
+# Model-related settings
+models:
+  segmentation:
+    model_weights: "models/BiSeNetv2/checkpoints/BiseNetv2_150.pth"
+    confidence_threshold: 0.5 # Threshold for object detection confidence
+
+# Grid mapping settings
+grid_mapping:
+  grid_resolution: [0.09, 0.09] # Grid resolution for x and y axes
+  grid_size: [800, 800] # Grid size in x and y dimensions
+
+
