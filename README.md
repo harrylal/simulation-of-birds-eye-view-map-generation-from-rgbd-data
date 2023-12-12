@@ -1,7 +1,5 @@
 
 <h1 align="center">
-  <br>
-  <br>
   Simulation of Birds Eye View Map Generation from RGB-D Data
   <br>
 </h1>
